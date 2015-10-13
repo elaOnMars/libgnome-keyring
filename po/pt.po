@@ -3,22 +3,27 @@
 # This file is distributed under the same license as the libgnome-keyring package.
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2010, 2013.
 # 
+# Pedro Albuquerque <palbuquerque73@gmail.com>, 2015.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 3.8\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-17 00:56+0000\n"
-"PO-Revision-Date: 2013-03-17 00:59+0000\n"
-"Last-Translator: Duarte Loreto <happyguy_pt@hotmail.com>\n"
-"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"keyring&keywords=I18N+L10N&component=libgnome-keyring\n"
+"POT-Creation-Date: 2015-09-28 23:14+0000\n"
+"PO-Revision-Date: 2015-10-13 07:37+0100\n"
+"Last-Translator: Pedro Albuquerque <palbuquerque73@gmail.com>\n"
+"Language-Team: Português <palbuquerque73@gmail.com>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\\n\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: ../library/gnome-keyring-utils.c:182
 msgid "Access Denied"
-msgstr "Acesso Negado"
+msgstr "Acesso negado"
 
 #: ../library/gnome-keyring-utils.c:184
 msgid "The gnome-keyring-daemon application is not running."
@@ -34,7 +39,7 @@ msgstr "Já existe um chaveiro com esse nome"
 
 #: ../library/gnome-keyring-utils.c:190
 msgid "Programmer error: The application sent invalid data."
-msgstr "Erro de programação: A aplicação enviou dados inválidos."
+msgstr "Erro de programação: a aplicação enviou dados inválidos."
 
 #: ../library/gnome-keyring-utils.c:192
 msgid "No matching results"
@@ -49,6 +54,6 @@ msgid "The keyring has already been unlocked."
 msgstr "O chaveiro já foi destrancado."
 
 #. TRANSLATORS: This is the name of an automatically created default keyring.
-#: ../library/gnome-keyring.c:3042
+#: ../library/gnome-keyring.c:3044
 msgid "Default"
-msgstr "Omissão"
+msgstr "Predefinição"

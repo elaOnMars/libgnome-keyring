@@ -1,0 +1,58 @@
+# Croatian translation for libgnome-keyring.
+# Copyright (C) 2017 libgnome-keyring's COPYRIGHT HOLDER
+# This file is distributed under the same license as the libgnome-keyring package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libgnome-keyring master\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
+"keyring&keywords=I18N+L10N&component=libgnome-keyring\n"
+"POT-Creation-Date: 2017-04-08 15:13+0000\n"
+"PO-Revision-Date: 2017-04-15 23:11+0200\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../library/gnome-keyring-utils.c:205
+msgid "Access Denied"
+msgstr "Pristup odbijen"
+
+#: ../library/gnome-keyring-utils.c:207
+msgid "The gnome-keyring-daemon application is not running."
+msgstr "gnome-keyring-daemon pozadinski program nije pokrenut."
+
+#: ../library/gnome-keyring-utils.c:209
+msgid "Error communicating with gnome-keyring-daemon"
+msgstr "Greška u komunikaciji s gnome-keyring-daemon"
+
+#: ../library/gnome-keyring-utils.c:211
+msgid "A keyring with that name already exists"
+msgstr "Skup ključeva s istim nazivom već postoji"
+
+#: ../library/gnome-keyring-utils.c:213
+msgid "Programmer error: The application sent invalid data."
+msgstr "Greška programera: Aplikacija je poslala neispravne podatke."
+
+#: ../library/gnome-keyring-utils.c:215
+msgid "No matching results"
+msgstr "Nema odgovarajućih rezultata"
+
+#: ../library/gnome-keyring-utils.c:217
+msgid "A keyring with that name does not exist."
+msgstr "Skup ključeva s time nazivom ne postoji."
+
+#: ../library/gnome-keyring-utils.c:224
+msgid "The keyring has already been unlocked."
+msgstr "Skup ključeva je već otključan."
+
+#. TRANSLATORS: This is the name of an automatically created default keyring.
+#: ../library/gnome-keyring.c:3130
+msgid "Default"
+msgstr "Zadan"
